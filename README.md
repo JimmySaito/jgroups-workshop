@@ -1,6 +1,6 @@
 Chat con JGroups y mapa replicado
 
-Este proyecto extiende un chat de consola basado en JGroups con un mapa de clave-valor replicado. Los mensajes normales siguen funcionando y, además, se pueden guardar valores con el comando /store.
+Este proyecto extiende un chat de consola basado en JGroups de chat and replicated-map. Los mensajes normales siguen funcionando y, además, se pueden guardar valores con el comando /store.
 
 Cada nodo mantiene una copia local del mapa y un archivo WAL propio. Cuando recibe una operación de almacenamiento, primero la guarda en el WAL y luego actualiza el mapa. Al iniciar, reproduce su WAL para reconstruir el estado local antes de unirse al grupo.
 
