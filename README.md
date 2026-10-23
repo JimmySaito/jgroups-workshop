@@ -39,6 +39,10 @@ flowchart LR
     N1 -. "transferencia de estado" .-> N3
 El diagrama muestra tres nodos, aunque se pueden ejecutar más o menos instancias. La transferencia de estado permite que un nodo nuevo obtenga el estado actual del grupo al incorporarse.
 
+<img width="1408" height="768" alt="Arquitectura" src="https://github.com/user-attachments/assets/ec4f7e15-bdb6-4d3f-b170-396312adc6da" />
+
+
+
 Comandos
 /store <clave> <valor>: guarda o actualiza un valor y replica la operación en el grupo.
 /state: muestra el mapa local del nodo.
